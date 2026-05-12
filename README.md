@@ -1,18 +1,30 @@
-# My Python Journey 
+# 🐍 My Python Journey
 
-This repository contains my daily Python practice programs.
+Welcome to my Python learning repository 🚀  
+Here I upload my daily Python practice programs and mini projects.
 
-## Topics Covered
-- Variables
+---
+
+## 📚 What I’m Learning
+
+- Python Basics
+- Variables & Data Types
+- Conditional Statements
 - Loops
-- Patterns
-- Armstrong Number
-- Calculator Programs
+- Functions
+- Pattern Programs
+- Number Programs
+- Mini Projects
+- Problem Solving
 
-## Folder Structure
+---
 
-- day-1
-- day-2
-- day-3
+## 📂 Repository Structure
 
-I am learning Python consistently and uploading programs daily.
+```text
+My-Python-Journey
+ ┣ day-1
+ ┣ day-2
+ ┣ day-3
+ ┣ mini-projects
+ ┗ README.md
