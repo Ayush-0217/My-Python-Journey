@@ -35,3 +35,267 @@ This 100 days of code series will help you learn python from starting to the end
 - You can easily fork this repl and continue learning in your own style. Video, code as well as text tutorial on the same page which makes things easy!
 - For fellow teachers out there, you create a .tutorial folder to create tutorials using replit.
 
+- # Day 2 - My Python Success Story
+# Why I love python (And you will too...)
+Welcome to Day 2 of 100 days of code. Let me start with a story! 
+Back in my college, I used to learn C and C++ programming in depth, used to score good marks. I created a bunch of printing, conditionals and loop program. Now what? I wanted to benefit from the same
+In my second year of college, I started working (I mean actually working in the industry) with the python programming language. I was not so good with it but I used to write code for a singaporean client and actually make good money without having to actually master Python. Harry then got curious and started working on his Python skills even more.
+I then got into web scraping and trust me I made some good easy money on Fiverr just by writing some python programs and charging on per webpage basis to my clients ( I used to automate scraping)
+
+I then learnt flask and got to work with Flask with a university professor abroad. Long story short, Python made a huge impact in my career.
+
+## What can Python do for you?
+
+I want to show you some python programs I created which will surely inspire you to create your own versions of the same as we progress through this tutorial. 
+Do not try to recreate them just yet if you are a beginner and just started working on Python. We will make progress gradually trust me
+
+# Day 3 - Modules and pip in Python!
+
+Module is like a code library which can be used to borrow code written by somebody else in our python program. There are two types of modules in python:
+1. Built in Modules - These modules are ready to import and use and ships with the python interpreter. there is no need to install such modules explicitly.
+2. External Modules - These modules are imported from a third party file or can be installed using a package manager like pip or conda. Since this code is written by someone else, we can install different versions of a same module with time.
+
+## The pip command
+
+It can be used as a package manager [pip](https://pip.pypa.io/en/stable/) to install a python module.
+Lets install a module called pandas using the following command
+
+```bash
+pip install pandas
+```
+
+## Using a module in Python (Usage)
+We use the import syntax to import a module in Python. Here is an example code:
+
+```python
+import pandas
+
+# Read and work with a file named 'words.csv'
+df = pandas.read_csv('words.csv')
+print(df) # This will display first few rows from the words.csv file
+ 
+```
+
+Similarly we can install other modules and look into their documentations for usage instructions.\
+We will find ourselved doing this often in the later part of this course
+
+# Day 5 - Comments, Escape sequence & Print in Python
+
+Welcome to Day 5 of 100DaysOfCode. Today we will talk about Comments, Escape Sequences and little bit more about print statement in Python.
+We will also throw some light on Escape Sequences
+
+# Python Comments
+A comment is a part of the coding file that the programmer does not want to execute, rather the programmer uses it to either explain a block of code or to avoid the execution of a specific part of code while testing.
+
+## Single-Line Comments:
+
+To write a comment just add a ‘#’ at the start of the line.
+
+### Example 1
+
+```python
+#This is a 'Single-Line Comment'
+print("This is a print statement.")
+``` 
+
+Output:
+
+```markup
+This is a print statement. 
+``` 
+
+### Example 2
+
+```python
+print("Hello World !!!") #Printing Hello World
+```
+
+Output:
+
+```markup
+Hello World !!!
+``` 
+
+### Example 3:
+
+```python
+print("Python Program")
+#print("Python Program")
+``` 
+
+### Output: 
+
+```markup
+Python Program
+``` 
+## Multi-Line Comments:
+
+To write multi-line comments you can use ‘#’ at each line or you can use the multiline string.
+
+**Example 1:** The use of ‘#’.
+
+```python
+#It will execute a block of code if a specified condition is true.
+#If the condition is false then it will execute another block of code.
+p = 7
+if (p > 5):
+    print("p is greater than 5.")
+else:
+    print("p is not greater than 5.")
+```
+
+
+Output:
+
+```markup
+p is greater than 5.
+```
+
+
+**Example 2:** The use of multiline string.
+
+```python
+"""This is an if-else statement.
+It will execute a block of code if a specified condition is true.
+If the condition is false then it will execute another block of code."""
+p = 7
+if (p > 5):
+    print("p is greater than 5.")
+else:
+    print("p is not greater than 5.")
+```
+
+
+### Output
+
+```markup
+p is greater than 5.
+```
+
+# Escape Sequence Characters
+
+To insert characters that cannot be directly used in a string, we use an escape sequence character.
+
+An escape sequence character is a backslash  `\`  followed by the character you want to insert.
+
+An example of a character that cannot be directly used in a string is a double quote inside a string that is surrounded by double quotes:
+
+```python
+print("This doesnt "execute")
+print("This will \" execute")
+```
+
+# More on Print statement
+The syntax of a print statement looks something like this:
+
+```python
+print(object(s), sep=separator, end=end, file=file, flush=flush)
+```
+
+## Other Parameters of Print Statement 
+1. object(s): Any object, and as many as you like. Will be converted to string before printed
+2. sep='separator': Specify how to separate the objects, if there is more than one. Default is ' '
+3. end='end': Specify what to print at the end. Default is '\n' (line feed)
+4. file: An object with a write method. Default is sys.stdout
+
+Parameters 2 to 4 are optional
+
+
+# Day 6 - Variables and Data Types
+## What is a variable?
+Variable is like a container that holds data. Very similar to how our containers in kitchen holds sugar, salt etc
+Creating a variable is like creating a placeholder in memory and assigning it some value. In Python its as easy as writing:
+```python
+a = 1
+b = True
+c = "Harry"
+d = None
+```
+
+These are four variables of different data types.
+
+## What is a Data Type?
+Data type specifies the type of value a variable holds. This is required in programming to do various operations without causing an error. \
+In python, we can print the type of any operator using type function:
+```python
+a = 1
+print(type(a))
+b = "1"
+print(type(b))
+```
+By default, python provides the following built-in data types:
+
+## 1. Numeric data: int, float, complex
+
+
+ - int: 3, -8, 0
+ -    float: 7.349, -9.0, 0.0000001
+ -  complex: 6 + 2i 
+
+ ## 2. Text data: str
+    
+
+str: "Hello World!!!", "Python Programming"
+
+## 3. Boolean data:
+    
+
+Boolean data consists of values True or False.
+
+## 4. Sequenced data: list, tuple
+    
+
+**list:**  A list is an ordered collection of data with elements separated by a comma and enclosed within square brackets. Lists are mutable and can be modified after creation.
+
+**Example:**
+
+```python
+list1 = [8, 2.3, [-4, 5], ["apple", "banana"]]
+print(list1)
+```
+
+
+Output:
+
+```markup
+[8, 2.3, [-4, 5], ['apple', 'banana']]
+```
+
+
+**Tuple:**  A tuple is an ordered collection of data with elements separated by a comma and enclosed within parentheses. Tuples are immutable and can not be modified after creation. 
+
+**Example:**
+
+```python
+tuple1 = (("parrot", "sparrow"), ("Lion", "Tiger"))
+print(tuple1)
+```
+
+
+Output:
+
+```python
+(('parrot', 'sparrow'), ('Lion', 'Tiger'))
+```
+
+
+## 5. Mapped data: dict
+    
+
+**dict:** A dictionary is an unordered collection of data containing a key:value pair. The key:value pairs are enclosed within curly brackets.
+
+**Example:**
+
+```python
+dict1 = {"name":"Sakshi", "age":20, "canVote":True}
+print(dict1)
+```
+
+
+Output:
+
+```python
+{'name': 'Sakshi', 'age': 20, 'canVote': True}
+```
+
+
