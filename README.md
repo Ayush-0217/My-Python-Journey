@@ -1,4 +1,4 @@
-# Hi there, I'm Ayush Solanki 👋
+# Hi there, I'm Ayush Solanki 
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=00F7FF&center=true&vCenter=true&width=700&lines=Python+Learner+%F0%9F%90%8D;Future+Software+Engineer+%F0%9F%9A%80;Learning+DSA+%26+Development;Building+My+Coding+Journey" alt="Typing SVG" />
@@ -6,21 +6,21 @@
 
 ---
 
-## 🚀 About Me
+##  About Me
 
-- 🎓 Starting my college journey
-- 🐍 Learning Python deeply beyond school academics
-- 💡 Interested in Programming, Development & Problem Solving
-- 🛠️ Currently learning:
+-  Starting my college journey
+-  Learning Python deeply beyond school academics
+-  Interested in Programming, Development & Problem Solving
+-  Currently learning:
   - Python
   - SQL
   - Git & GitHub
   - Data Structures & Algorithms
-- 🎯 Goal: Become a skilled Software Engineer
+-  Goal: Become a skilled Software Engineer
 
 ---
 
-## 🧰 Tech Stack
+##  Tech Stack
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,mysql,git,github,vscode,c,cpp" />
@@ -28,7 +28,7 @@
 
 ---
 
-## 📊 GitHub Stats
+##  GitHub Stats
 
 <p align="center">
   <img height="170" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight" />
@@ -38,7 +38,7 @@
 
 ---
 
-## 🔥 GitHub Streak
+##  GitHub Streak
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=YOUR_USERNAME&theme=tokyonight" />
@@ -46,7 +46,7 @@
 
 ---
 
-## 🌱 Current Focus
+##  Current Focus
 
 ```python
 while(True):
