@@ -1,7 +1,7 @@
 # Hi there, I'm Ayush Solanki 
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=00F7FF&center=true&vCenter=true&width=700&lines=New+Learner+%F0%9F%90%8D;Future+Skilled+Engineer+%F0%9F%9A%80;Learning+DSA+%26+Development;Documenting+My+Coding+Journey" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=00F7FF&center=true&vCenter=true&width=700&lines=New+Learner;Future+Skilled+Engineer+%F0%9F%9A%80;Learning+DSA+%26+Development;Documenting+My+Coding+Journey" alt="Typing SVG" />
 </p>
 
 ---
